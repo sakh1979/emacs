@@ -49,6 +49,9 @@
 ;; Clojure
 (require 'clojure-settings)
 
+;; YAML mode
+(require 'yaml-settings)
+
 
 ;---------------------------------------------------------------------
 ;; Put auto 'custom' changes in a separate file (this is stuff like
