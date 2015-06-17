@@ -29,6 +29,7 @@
                ac-cider
                projectile
                yaml-mode
+               nyan-mode
                ))
 
 ; first enable shallow clone, so we don't need to clone the entire

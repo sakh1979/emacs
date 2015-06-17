@@ -1,11 +1,11 @@
 # Emacs Configuration
 
-Sagun Khatri  
+Sagun Khatri
 sakh1979@gmail.com
 
 **Tested on versions:**
-* GNU Emacs 24.3.1 (x86_64-apple-darwin13.1.0, NS apple-appkit-1265.19) of 2014-04-06
-* GNU Emacs 24.3.1 (x86_64-pc-linux-gnu, GTK+ Version 3.4.2) of 2014-02-22
+* GNU Emacs 24.5.1 (x86_64-apple-darwin13.1.0, NS apple-appkit-1265.19) of 2015-06-17
+* GNU Emacs 24.5.1 (x86_64-pc-linux-gnu, GTK+ Version 3.4.2) of 2015-06-17
 
 ## Installing
 
@@ -41,6 +41,8 @@ listed below:
 * `markdown-mode` -- support for [Markdown](http://daringfireball.net/projects/markdown/) files
 * `helm` -- [completion and selection](https://github.com/emacs-helm/helm) narrowing framework
 * `helm-descbinds` -- describe keybindings using helm
+* `nyan-mode` -- silly mode that renders a nyan cat to display how far
+  you are through a file
 
 ## Gotchas
 
