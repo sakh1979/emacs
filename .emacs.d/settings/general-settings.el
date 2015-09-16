@@ -96,6 +96,11 @@
 ; but just in case)
 (transient-mark-mode 1)
 
+; set re-builder to use string syntax as suggested by
+; mastering emacs
+(require 're-builder)
+(setq reb-re-syntax 'string)
+
 ; highlight parentheses when the cursor is next to them
 (require 'paren)
 (show-paren-mode 1)
