@@ -19,21 +19,17 @@
 ;; Git
 (require 'magit-settings)
 
-;; Popup
-(include-elget-plugin "popup")
-(require 'popup)
-
 ;; yasnippet
 (require 'yasnippet-settings)
-
-;; Auto complete
-(require 'auto-complete-settings)
 
 ;; Helm
 (require 'helm-settings)
 
 ;; Projectile
 (require 'projectile-settings)
+
+;; Company Mode
+(require 'company-settings)
 
 
 ;-----------;

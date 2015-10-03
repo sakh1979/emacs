@@ -14,11 +14,10 @@
 
 ; packages to install
 (setq 
- my-packages '(auto-complete
+ my-packages '(company-mode
                color-theme-solarized
                magit
                markdown-mode
-               popup
                helm
                helm-descbinds
                js2-mode
@@ -26,7 +25,6 @@
                cider
                paredit
                rainbow-delimiters
-               ac-cider
                projectile
                yaml-mode
                nyan-mode
