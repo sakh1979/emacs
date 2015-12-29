@@ -20,6 +20,7 @@
                markdown-mode
                helm
                helm-descbinds
+               helm-projectile
                js2-mode
                yasnippet
                cider
