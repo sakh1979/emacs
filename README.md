@@ -34,7 +34,7 @@ This configuration installs several plugins using
 specified in `.emacs.d/settings/el-get-settings.el`, and are also
 listed below:
 
-* `auto-complete` -- auto completion
+* `company-mode` -- an auto completion mode
 * `popup` -- visual popup (e.g., for auto completion)
 * `color-theme-solarized` -- the [solarized](http://ethanschoonover.com/solarized) color theme
 * `magit` -- git plugin
@@ -54,22 +54,6 @@ configuration.
 To install all the plugins above, you need to have several different
 version control systems installed, including `hg`, `git`, `bzr`, and
 `cvs`.
-
-### Trouble building AUCTeX
-
-If you get the following error:
-
-`error: el-get: ./autogen.sh el-get could not build auctex [./autogen.sh]`
-
-There are a few possible causes. Try these steps:
-
-1. Make sure you have `automake` and `texlive-full` installed (if you
-   are on Ubuntu) or MacTeX (if you are on Mac).
-2. Try running emacs from the command line (it could be an issue with
-   not finding the right path).
-3. If that doesn't work, run emacs from the command line with the
-   `--debug-init` flag. This will give you more information about the
-   error, and possibly point you towards the solution.
 
 ### Tramp is timing out
 
