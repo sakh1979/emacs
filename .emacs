@@ -31,6 +31,9 @@
 ;; Company Mode
 (require 'company-settings)
 
+;; Org Mode
+(require 'org-mode-settings)
+
 
 ;-----------;
 ;;; Modes ;;;

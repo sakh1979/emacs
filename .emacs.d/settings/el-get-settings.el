@@ -29,6 +29,7 @@
                projectile
                yaml-mode
                nyan-mode
+               org-bullets
                ))
 
 ; first enable shallow clone, so we don't need to clone the entire
