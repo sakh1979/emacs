@@ -51,6 +51,9 @@
 ;; YAML mode
 (require 'yaml-settings)
 
+;; SML mode
+(require 'sml-settings)
+
 ;; Nyancat mode!
 (nyan-mode 1)
 

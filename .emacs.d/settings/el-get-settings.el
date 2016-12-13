@@ -14,22 +14,23 @@
 
 ; packages to install
 (setq 
- my-packages '(company-mode
+ my-packages '(cider
                color-theme-solarized
-               magit
-               markdown-mode
+               company-mode
                helm
                helm-descbinds
                helm-projectile
                js2-mode
-               yasnippet
-               cider
-               paredit
-               rainbow-delimiters
-               projectile
-               yaml-mode
+               magit
+               markdown-mode
                nyan-mode
                org-bullets
+               paredit
+               projectile
+               rainbow-delimiters
+               sml-mode
+               yaml-mode
+               yasnippet
                ))
 
 ; first enable shallow clone, so we don't need to clone the entire
