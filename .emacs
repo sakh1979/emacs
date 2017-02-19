@@ -51,6 +51,9 @@
 ;; YAML mode
 (require 'yaml-settings)
 
+;; Racket mode
+(require 'racket-settings)
+
 ;; SML mode
 (require 'sml-settings)
 

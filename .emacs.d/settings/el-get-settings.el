@@ -27,6 +27,7 @@
                org-bullets
                paredit
                projectile
+               racket-mode
                rainbow-delimiters
                sml-mode
                yaml-mode
