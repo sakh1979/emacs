@@ -20,6 +20,7 @@
                helm
                helm-descbinds
                helm-projectile
+               inf-ruby
                js2-mode
                magit
                markdown-mode

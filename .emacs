@@ -54,6 +54,9 @@
 ;; Racket mode
 (require 'racket-settings)
 
+;; Ruby mode
+(require 'ruby-settings)
+
 ;; SML mode
 (require 'sml-settings)
 
