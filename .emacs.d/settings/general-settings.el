@@ -80,6 +80,9 @@
 ; set the keybinding so that you can use f5 for query-replace-regexp
 (global-set-key [f5] 'query-replace-regexp)
 
+; strip whitespace on save
+(add-hook 'before-save-hook 'delete-trailing-whitespace)
+
 ; require final newlines in files when they are saved
 (setq require-final-newline 1)
 ; add a new line when going to the next line
