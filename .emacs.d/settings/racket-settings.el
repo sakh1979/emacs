@@ -1,6 +1,6 @@
-                                        ;----------------;
+;----------------;
 ;;;  Racket    ;;;
-                                        ;----------------;
+;----------------;
 
 (add-hook 'racket-mode-hook #'racket-unicode-input-method-enable)
 (add-hook 'racket-mode-hook #'paredit-mode)
