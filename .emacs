@@ -34,6 +34,9 @@
 ;; Org Mode
 (require 'org-mode-settings)
 
+;; eshell settings
+(require 'eshell-settings)
+
 
 ;-----------;
 ;;; Modes ;;;
