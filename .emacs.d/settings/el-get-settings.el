@@ -13,10 +13,12 @@
     (eval-print-last-sexp)))
 
 ; packages to install
-(setq 
+(setq
  my-packages '(cider
                color-theme-solarized
                company-mode
+               dash
+               f
                helm
                helm-descbinds
                helm-projectile
@@ -30,6 +32,7 @@
                projectile
                racket-mode
                rainbow-delimiters
+               s
                sml-mode
                yaml-mode
                yasnippet

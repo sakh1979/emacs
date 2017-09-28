@@ -37,6 +37,9 @@
 ;; eshell settings
 (require 'eshell-settings)
 
+;; modern api for emacs
+(require 'dash-settings)
+
 
 ;-----------;
 ;;; Modes ;;;
@@ -70,6 +73,6 @@
 ;---------------------------------------------------------------------
 ;; Put auto 'custom' changes in a separate file (this is stuff like
 ;; custom-set-faces and custom-set-variables)
-(load 
+(load
  (setq custom-file (expand-file-name "settings/custom.el" user-emacs-directory))
  'noerror)
