@@ -24,4 +24,8 @@
   (ANY 2)
   (context 2))
 
+; keybindings
+(eval-after-load 'clojure-mode
+  '(define-key clojure-mode-map (kbd "C-:") nil))
+
 (provide 'clojure-settings)
