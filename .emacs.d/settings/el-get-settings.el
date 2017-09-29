@@ -15,7 +15,7 @@
 ; packages to install
 (setq
  my-packages '(cider
-               color-theme-solarized
+               color-theme-zenburn
                company-mode
                dash
                f

@@ -7,16 +7,12 @@
  )
 
 ;; color theme
-(add-to-list 'custom-theme-load-path (make-plugin-path "color-theme-solarized"))
-(load-theme 'solarized t)
-(set-frame-parameter nil 'background-mode 'dark)
-(enable-theme 'solarized)
-(setq solarized-termcolors 256)
+(load-theme 'zenburn t)
 
 (require 'faces)
 (if (system-is-mac)
     (set-face-attribute 'default nil
-			:foundry "apple" 
+			:foundry "apple"
 			:family "Monaco"))
 
 (custom-set-faces
@@ -24,25 +20,14 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- (if (window-system)
-     (if (system-is-mac)
-         '(default ((t (:inherit nil :stipple nil :background "#002b35" :foreground "#839496" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 130 :width normal :foundry "apple" :family "Monaco"))))
-       '(default ((t (:inherit nil :stipple nil :background "#002b35" :foreground "#839496" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 130 :width normal :family "DejaVu Sans Mono"))))))
- '(font-lock-comment-face ((t (:foreground "#6171c4" :inverse-video nil :underline nil :slant italic :weight normal))))
- '(font-lock-function-name-face ((t (:foreground "#2075c7" :inverse-video nil :underline nil :slant normal :weight bold))))
- '(font-lock-keyword-face ((t (:foreground "#cb4b16" :inverse-video nil :underline nil :slant normal :weight normal))))
- '(font-lock-type-face ((t (:foreground "#d33682" :inverse-video nil :underline nil :slant normal :weight normal))))
- '(fringe ((t (:background "#002b35" :foreground "#465a61"))))
- ;; (if (window-system)
- ;;     '(magit-item-highlight ((t (:inherit highlight :background "#042028"))))
- ;;   '(magit-item-highlight ((t (:background "white" :foreground "black")))))
+
+ (if (system-is-mac)
+     '(default ((t (:height 130 :foundry "apple" :family "Monaco"))))
+   '(default ((t (:height 130 :family "DejaVu Sans Mono")))))
  '(markdown-header-face-1 ((t (:inherit markdown-header-face :height 210))))
  '(markdown-header-face-2 ((t (:inherit markdown-header-face :height 190))))
  '(markdown-header-face-3 ((t (:inherit markdown-header-face :height 170))))
  '(markdown-header-face-4 ((t (:inherit markdown-header-face :height 150))))
  '(markdown-header-face-5 ((t (:inherit markdown-header-face :slant italic :weight bold))))
  '(markdown-header-face-6 ((t (:inherit markdown-header-face :slant italic :weight normal))))
- '(markdown-math-face ((t (:inherit font-lock-string-face :foreground "#cb4b16" :slant italic))))
- ;; (if (window-system)
- ;;     '(mode-line ((t (:background "#0a2832" :foreground "#eee8d4" :inverse-video t :box nil :underline nil :slant normal :weight normal)))))
- )
+ '(markdown-math-face ((t (:inherit font-lock-string-face :slant italic)))))
