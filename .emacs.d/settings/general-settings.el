@@ -125,4 +125,8 @@
 ; disable auto save
 (setq auto-save-default nil)
 
+; let Emacs be the beast it has always dreamed
+(setq gc-cons-threshold 50000000)
+(setq gnutls-min-prime-bits 4096)
+
 (provide 'general-settings)
