@@ -40,6 +40,9 @@
 ;; modern api for emacs
 (require 'dash-settings)
 
+;; mode line settings
+(require 'mode-line-settings)
+
 
 ;-----------;
 ;;; Modes ;;;

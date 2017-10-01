@@ -33,6 +33,7 @@
                rainbow-delimiters
                s
                sml-mode
+               spaceline
                yaml-mode
                yasnippet
                ))

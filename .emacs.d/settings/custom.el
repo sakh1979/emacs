@@ -24,10 +24,16 @@
  (if (system-is-mac)
      '(default ((t (:height 130 :foundry "apple" :family "Monaco"))))
    '(default ((t (:height 130 :family "DejaVu Sans Mono")))))
+
+ ;; mark down
  '(markdown-header-face-1 ((t (:inherit markdown-header-face :height 210))))
  '(markdown-header-face-2 ((t (:inherit markdown-header-face :height 190))))
  '(markdown-header-face-3 ((t (:inherit markdown-header-face :height 170))))
  '(markdown-header-face-4 ((t (:inherit markdown-header-face :height 150))))
  '(markdown-header-face-5 ((t (:inherit markdown-header-face :slant italic :weight bold))))
  '(markdown-header-face-6 ((t (:inherit markdown-header-face :slant italic :weight normal))))
- '(markdown-math-face ((t (:inherit font-lock-string-face :slant italic)))))
+ '(markdown-math-face ((t (:inherit font-lock-string-face :slant italic))))
+
+ ;; mode line
+ '(mode-line ((t (:box nil))))
+ '(mode-line-inactive ((t (:box nil)))))
