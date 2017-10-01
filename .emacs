@@ -66,9 +66,6 @@
 ;; SML mode
 (require 'sml-settings)
 
-;; Nyancat mode!
-(nyan-mode 1)
-
 
 ;---------------------------------------------------------------------
 ;; Put auto 'custom' changes in a separate file (this is stuff like

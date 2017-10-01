@@ -26,7 +26,6 @@
                js2-mode
                magit
                markdown-mode
-               nyan-mode
                org-bullets
                paredit
                projectile
