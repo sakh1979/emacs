@@ -8,7 +8,8 @@
 
 (add-hook 'eshell-mode-hook (lambda ()
     (add-to-list 'eshell-visual-commands "ssh")
-    (add-to-list 'eshell-visual-commands "tail")))
+    (add-to-list 'eshell-visual-commands "tail")
+    (define-key eshell-mode-map (kbd "M-r") 'helm-eshell-history)))
 
 (defun curr-dir-git-branch-string (pwd)
   "Returns current git branch as a string, or the empty string if
