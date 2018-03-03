@@ -19,6 +19,7 @@
                company-mode
                dash
                f
+               git-timemachine
                helm
                helm-descbinds
                helm-projectile
