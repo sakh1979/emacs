@@ -18,6 +18,7 @@
                color-theme-zenburn
                company-mode
                dash
+               diminish
                f
                git-timemachine
                helm

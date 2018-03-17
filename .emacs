@@ -69,6 +69,9 @@
 ;; SML mode
 (require 'sml-settings)
 
+;; diminish mode settings
+(require 'diminish-settings)
+
 
 ;---------------------------------------------------------------------
 ;; Put auto 'custom' changes in a separate file (this is stuff like
