@@ -43,6 +43,9 @@
 ;; mode line settings
 (require 'mode-line-settings)
 
+;; elisp settings
+(require 'elisp-settings)
+
 
 ;-----------;
 ;;; Modes ;;;
