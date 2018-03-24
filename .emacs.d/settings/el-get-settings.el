@@ -19,6 +19,7 @@
                company-mode
                dash
                diminish
+               dockerfile-mode
                f
                git-timemachine
                helm

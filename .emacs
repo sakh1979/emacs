@@ -43,6 +43,9 @@
 ;; mode line settings
 (require 'mode-line-settings)
 
+;; docker settings
+(require 'docker-settings)
+
 ;; elisp settings
 (require 'elisp-settings)
 
