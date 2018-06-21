@@ -19,6 +19,7 @@
                company-mode
                dash
                diminish
+               dired+
                dockerfile-mode
                f
                git-timemachine
