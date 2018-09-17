@@ -17,6 +17,7 @@
  my-packages '(cider
                color-theme-zenburn
                company-mode
+               company-restclient
                dash
                diminish
                dired+
