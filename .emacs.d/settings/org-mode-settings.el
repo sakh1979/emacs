@@ -12,6 +12,11 @@
 (setq org-babel-clojure-backend 'cider)
 (require 'cider)
 
+(setq org-src-fontify-natively t
+      org-src-tab-acts-natively t
+      org-confirm-babel-evaluate nil
+      org-edit-src-content-indentation 0)
+
 ;; enabling languages in org babel
 (org-babel-do-load-languages
  'org-babel-load-languages
