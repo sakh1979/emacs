@@ -58,13 +58,13 @@
   (interactive)
   (custom-set-faces
    '(org-block-begin-line
-     ((t (:foreground "#008ED1" :background "#073642"))))
+     ((t (:foreground "#333333" :background "#3F3F3F" :weight bold))))
    '(org-block-background
-     ((t (:background "#00141a"))))
+     ((t (:background "#2F2F2F"))))
    '(org-block
-     ((t (:background "#00141a"))))
+     ((t (:background "#2F2F2F"))))
    '(org-block-end-line
-     ((t (:foreground "#008ED1" :background "#073642"))))))
+     ((t (:foreground "#333333" :background "#3F3F3F" :weight bold))))))
 
 
 ;;; -----------------------------------------------------------------
