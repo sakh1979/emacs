@@ -15,6 +15,8 @@
       helm-scroll-amount                    8
       helm-ff-file-name-history-use-recentf t)
 
+(setq helm-show-completion-display-function #'helm-show-completion-default-display-function)
+
 (fset 'describe-bindings 'helm-descbinds)
 
 (global-set-key (kbd "C-x b") 'helm-mini)
