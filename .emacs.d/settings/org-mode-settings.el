@@ -15,11 +15,11 @@
 ;; enabling languages in org babel
 (org-babel-do-load-languages
  'org-babel-load-languages
- '((shell . t)
-   (clojure . t)
+ '((sh         . t)
+   (clojure    . t)
    (emacs-lisp . t)
-   (java . t)
-   (sql . t)
+   (java       . t)
+   (sql        . t)
    ))
 
 (defvar sk/fixed-font-family
