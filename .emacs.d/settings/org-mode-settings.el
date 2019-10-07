@@ -60,9 +60,9 @@
    '(org-block-begin-line
      ((t (:foreground "#333333" :background "#3F3F3F" :weight bold))))
    '(org-block-background
-     ((t (:background "#2F2F2F"))))
+     ((t (:background "#3F3F3F"))))
    '(org-block
-     ((t (:background "#2F2F2F"))))
+     ((t (:background "#3F3F3F"))))
    '(org-block-end-line
      ((t (:foreground "#333333" :background "#3F3F3F" :weight bold))))))
 
