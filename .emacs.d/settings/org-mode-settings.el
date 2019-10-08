@@ -15,7 +15,8 @@
 (setq org-src-fontify-natively t
       org-src-tab-acts-natively t
       org-confirm-babel-evaluate nil
-      org-edit-src-content-indentation 0)
+      org-edit-src-content-indentation 0
+      org-startup-with-inline-images t)
 
 ;; enabling languages in org babel
 (org-babel-do-load-languages
