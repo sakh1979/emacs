@@ -41,6 +41,7 @@
                spaceline
                yaml-mode
                yasnippet
+               yasnippet-snippets
                ))
 
 ; first enable shallow clone, so we don't need to clone the entire
