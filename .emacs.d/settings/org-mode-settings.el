@@ -21,7 +21,7 @@
 ;; enabling languages in org babel
 (org-babel-do-load-languages
  'org-babel-load-languages
- '((sh         . t)
+ '((shell      . t)
    (clojure    . t)
    (emacs-lisp . t)
    (java       . t)
