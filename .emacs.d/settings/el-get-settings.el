@@ -29,6 +29,7 @@
                helm-projectile
                inf-ruby
                js2-mode
+               kotlin-mode
                magit
                markdown-mode
                org-bullets
