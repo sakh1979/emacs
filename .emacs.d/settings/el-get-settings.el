@@ -22,6 +22,8 @@
                diminish
                dired+
                dockerfile-mode
+               doom-modeline
+               doom-themes
                f
                git-timemachine
                helm

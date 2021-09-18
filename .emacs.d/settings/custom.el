@@ -7,7 +7,8 @@
  )
 
 ;; color theme
-(load-theme 'zenburn t)
+;; (load-theme 'zenburn t)
+(load-theme 'doom-vibrant t)
 
 (require 'faces)
 (if (system-is-mac)
