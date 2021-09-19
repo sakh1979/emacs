@@ -15,7 +15,6 @@
 ; packages to install
 (setq
  my-packages '(cider
-               color-theme-zenburn
                company-mode
                company-restclient
                dash
@@ -41,7 +40,6 @@
                rainbow-delimiters
                s
                sml-mode
-               spaceline
                yaml-mode
                yasnippet
                yasnippet-snippets
