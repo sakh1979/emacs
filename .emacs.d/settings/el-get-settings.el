@@ -14,7 +14,8 @@
 
 ; packages to install
 (setq
- my-packages '(cider
+ my-packages '(all-the-icons
+               cider
                company-mode
                company-restclient
                dash

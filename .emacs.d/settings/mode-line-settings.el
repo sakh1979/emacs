@@ -2,6 +2,8 @@
 ;;;  Mode Line Settings   ;;;
 ;---------------------------;
 
+(require 'all-the-icons)
+
 (require 'doom-modeline)
 (doom-modeline-mode 1)
 
