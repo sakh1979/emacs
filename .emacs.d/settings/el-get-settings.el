@@ -26,6 +26,7 @@
                doom-themes
                f
                git-timemachine
+               groovy-emacs-mode
                helm
                helm-descbinds
                helm-projectile
